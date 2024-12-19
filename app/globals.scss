@@ -14,6 +14,7 @@ body {
   font-feature-settings: 'ss05';
   color: var(--mono-01);
   font-size: 14px;
+  margin: 0;
 }
 
 .blind {
@@ -49,6 +50,10 @@ button {
 
 img {
   image-rendering: -webkit-optimize-contrast;
+}
+
+li {
+  list-style: none;;
 }
 
 @keyframes skeleton-gradient {
